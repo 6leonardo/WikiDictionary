@@ -7,7 +7,9 @@ wikiparse can parse italian wiki dictionary articles xml file ( https://dumps.wi
 
 download the articles file unzip it and use:
 
+```
 wikiparse.py articles.xml dictionary.json
+```
 
 the command will create a json file with all italian dictionary entries in json format.
 
