@@ -17,6 +17,7 @@ The helper class WikiDict can read dictionary.json file and search for word entr
 
 usage:
 
+```
 wd=WikiDict(filename)
 word=wd.search("casa")
 
@@ -30,3 +31,4 @@ for name,section in word.sections.items():
   # section.stype section type
   # section.rows inner section rows, every row is a section object
   section.display()
+```
